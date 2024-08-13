@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="libraries/gijgo/css/gijgo.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css"/>
+</head>
+ <body>
+  <!-- navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm auto mr-lg-0 mr-md-auto">
+              <a href="index.html" class="navbar-brand">
+                <img src="images/logo.png" alt="">
+              </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+              <li>
+                <span class="text-muted">
+                  | &nbsp;  Beyond the explorer of the world
+                </span>
+              </li>
+            </ul>
+      </nav>
+    </div> 
+  
+    <!-- footer -->
+      <footer class="section-footer mt-5 mb-4
+      border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>Features</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Review</a></li>
+                  <li><a href="#">Comunnity</a></li>
+                  <li><a href="#">Sosmed Kit</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Account</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Awards</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Get Connected</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Jakarta Selatan</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">0812 - 2998 - 2134</a></li>
+                  <li><a href="#">supports@nomands.id</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row border-top justify-content-center
+        align-items-center pt-4">
+        <div class="col-auto text-gray-500 font-weight-light">
+          2023 Copyright Nomands  • All rights reserved  • Made in Bekasi
+        </div>
+        </div>
+      </div>
+      </footer>
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>    
+    <script src="libraries/retina/retina.min.js"></script>
+    <script src="libraries/xzoom/xzoom.min.js"></script>
+    <script src="libraries/gijgo/js/gijgo.min.js"></script>
+   <script>
+      $(document).ready(function() {
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          Xoffset: 15
+        });
+
+        $('.datepicker').datepicker({
+          uilibrary: 'bootstrap4',
+          icons:{
+            rightIcon: '<img src="images/ic_doe.png"/>'
+          }
+        })
+      });
+    </script>
+  </body>
+</html>
